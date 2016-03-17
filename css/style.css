@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css?family=Play);
+
+@font-face {
+  font-family: bebas;
+  src: url(../fonts/bebas.ttf);
+}
+
+body {
+  font-family: 'Play', sans-serif;
+}
+
+img {
+  width:100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Helvetica;
+  font-weight:bold;
+}
+
+h1 > span, h2 > span, h3 > span, h4 > span, h5 > span {
+  color:red;
+}
+
+.opening-text {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+marquee {
+  margin:10px 0;
+}
+
+.black-transparent {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.red-border {
+  border-color: red;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+}
+
+.navbar-brand img {
+  width:200px;
+}
+
+.navbar {
+  height:80px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.navbar-nav {
+  margin-top:15px;
+}
+
+.navbar-nav a {
+  color:#000;
+}
+
+.navbar-default {
+  background-color:transparent;
+  border:none;
+}
+
+.navbar-toggle {
+  background-color: #ededed;
+}
+
+.navbar-nav li {
+  border-bottom:1px solid white;
+}
+
+.navbar-nav li:hover {
+  border-bottom:1px solid red;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover,.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color:transparent !important;
+}
+
+.black-transparent .navbar {
+  margin-top:0px;
+  margin-bottom:00px;
+  height:auto;
+}
+
+.black-transparent .navbar-nav {
+  margin:5px auto;
+}
+
+.black-transparent .navbar-nav a {
+  color:white;
+  font-family:bebas;
+  font-size:20px;
+}
+
+.black-transparent .navbar-nav .dropdown-menu a {
+  color:black !important;
+}
+
+.black-transparent .navbar-nav .dropdown-menu a:hover {
+  color:black !important;
+  text-decoration:underline;
+}
+
+
+.black-transparent .navbar-nav li {
+  border-bottom:none;
+  margin:0 30px;
+}
+
+.black-transparent .navbar-nav li:hover a {
+  border-bottom:none;
+  color:red !important;
+  transition:0.5s;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover,.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color:transparent !important;
+}
+
+.icon-bar {
+  background-color:#a8a8a8;
+}
+
+.flag {
+  width:30px;
+}
+
+#footer {
+  margin-top:30px;
+}
+
+#footer p {
+  margin:0;
+  font-size:13px;
+}
+
+#footer div:nth-child(1) > div > div:nth-child(1) {
+  padding-top:20px;
+}
+
+#footer div:nth-child(1) > div > div:nth-child(2) {
+  padding-left:0 !important;
+}
+
+
+#footer h4 {
+  margin-top:0 !important;
+}
+
+#footer ul {
+  list-style-type:none;
+}
+
+#footer li {
+  margin-left:-40px;
+}
+
+#footer li a {
+  color:#000;
+}
+
+#footer li a:hover {
+  padding-left:10px;
+  transition:0.5s;
+  text-decoration:none;
+}
+
+#footer > div:nth-last-child(1) {
+  text-align:center;
+  font-size:11px;
+  margin-top:20px;
+  font-style:italic;
+}
+
+#sidebar {
+  padding:0 20px;
+}
+
+#sidebar h3 {
+  margin-bottom:20px;
+}
+
+#sidebar img {
+  margin-bottom:15px;
+}
+
+#sidebar p {
+  margin:0;
+}
+
+#sidebar p:nth-child(3) {
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+.home-car {
+  margin-top:50px;
+  padding:0 30px;
+}
+
+.home-car .type {
+  padding:10px;
+  background:#ff3232;
+  color:white;
+  font-weight:bold;
+}
+
+.home-car h3 {
+  display:inline-block;
+  text-align:right;
+  margin-top:10px;
+}
+
+.home-car .price {
+  text-align:right;
+  font-size:12px;
+}
+
+.home-car .price > span {
+  font-size:20px;
+  margin-left:5px;
+  font-weight:bold
+}
+
+.testimonial {
+  padding:20px;
+}
+
+.testimonial img {
+  margin-bottom:10px;
+}
+
+.testimonial p:nth-last-child(1) {
+  font-weight:bold;
+  color:#ff3232;
+  text-align:right;
+}
+
+.news {
+  margin:15px 0;
+  padding-right:20px;
+}
+
+.news img {
+  width:280px;
+  float:left;
+  margin:10px;
+}
+
+.news a {
+  display:block;
+  text-align:right;
+}
+
+.advantage > div {
+  margin:20px 0;
+  padding:15px;
+}
+
+.advantage #title {
+  border:1px solid red;
+  border-radius:5px;
+  text-align:center;
+}
+
+.news-date {
+  color:#a8a8a8;
+}
+
+.news .news-date {
+  margin-left:5px;
+}
+
+.news h4, 
+.news h2, 
+.news-date {
+  display:inline-block;
+}
+
+#car-banner {
+  margin-bottom:30px;
+}
+
+.car-gallery,
+.car-colour {
+  margin-bottom:20px;
+}
+
+.flag-a {
+  margin-top:-10px !important;
+  padding:0 !important;
+  display:inline-block !important;
+}
+
+#flag-li:hover {
+  border-bottom:none !important;
+}
+
+.flag-a span {
+  display:inline-block;
+  margin-top:20px;
+  margin-right:20px;
+  margin-left:5px;
+}
+
+@media(max-width:480px) {
+  .navbar {
+    height:auto;
+  }
+
+  .navbar-brand img {
+    width:120px;
+    margin-top:-5px;
+  }
+
+  #footer {
+    margin-top:0;
+  }
+
+  #footer div:nth-child(1) {
+    margin-bottom:10px;
+  }
+
+  #footer div:nth-child(1) > div > div:nth-child(2) {
+    padding:15px !important;
+    text-align:center;
+  }
+
+  #footer div:nth-child(1) > div > div:nth-child(1) {
+    text-align:center;
+  }
+
+  #footer div:nth-child(1) > div > div:nth-child(1) img {
+    width:200px;
+    display:none;
+  }
+  
+  .news {
+    margin:15px 0;
+  }
+
+  .news img {
+    width:100%;
+    margin:10px 0;
+  }
+
+  .special {
+    margin-bottom:20px;
+  }
+
+  .notifyjs-corner {
+    display:none;
+  }
+
+  .advantage > #title {
+    margin:20px 15px;
+  }
+
+  .black-transparent .navbar-nav li {
+    margin:0;
+  }
+}
